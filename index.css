@@ -87,7 +87,8 @@ header  a{
     justify-content: center;
     align-items: center;
     display: flex;
-    background: url(/asserts/Forex.jpg);
+    background: url(//asserts/Forex.jpg);
+    background: url(Forex.jpg);
     background-size: cover;
 }
 
