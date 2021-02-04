@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+
+p{
+    font-weight: 300;
+    color: papayawhip;
+}
+body{
+    min-height: 1000px;
+}
+
+
+/*=====================HEADER*/
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position:fixed ;
+    display: flex;
+  
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    justify-content: space-between;
+    align-items: center;
+
+    transition: 0.5s;
+
+    z-index: 10000;
+}
+
+header .Logo{
+    text-decoration: none;
+    letter-spacing: 5px;  
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+}
+header .Logo span{
+    color: rgb(240, 242, 250);
+}
+
+header .menu{
+    display: flex;
+    position: relative;
+}
+
+header .menu li{
+    list-style: none;
+    margin-left: 15px;
+} 
+
+header .menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    
+}
+header .menu li a:hover{
+   
+    color: white;
+}
+/*
+header  a{
+    text-decoration: none;
+    text-align: left;
+    font-weight: bolder;
+    color: white;
+    font-size: 18px;
+    
+}
+
+
+}
+
+*/
+
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: url(/asserts/Forex_Software-2.jpg);
+    background-size: cover;
+}
+
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h1{
+    letter-spacing: 5px;
+    color: oldlace;
+    font-size: 5em;
+}
+.banner .content p{
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+
+.btn{
+    display: inline-block;
+    
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+
+    font-size: 1em;
+}
+
+.btn:hover{
+    background: black;
+    letter-spacing: 5px;
+}
+
+
+
+/*=====================End [Inner contact Bergin*/
+.boddy{
+    height: 100%;
+    position: fixed;
+}
+/*=====================END   >FOOTER*/
+footer{
+    background-color: rgb(235, 28, 166);
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+
+/*-----------------------------viewblog site*/
+
